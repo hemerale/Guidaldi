@@ -32,8 +32,9 @@ document.addEventListener("DOMContentLoaded", function () {
         return Math.floor(val - 273.15);
     }
 
+    const CITTA = '';
     const CHIAVE_API = '';
-    fetch(CHIAVE_API)
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+CITTA+'&appid='+CHIAVE_API)
         .then(res => res.json())
         .then(data => {
             const temperature = data.main.temp;
@@ -56,3 +57,4 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log('%cCreated by Hemerale', "font-size: 30px; color: #A39FC8;");
     console.log('%chttps://github.com/hemerale/Guidaldi', "font-size: 15px;");
 });
+
