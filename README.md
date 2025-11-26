@@ -41,7 +41,7 @@ Questa estensione usa [OpenWeatherMap](https://openweathermap.org).
 3. Vai su **My API Keys**
 4. Copia la tua chiave
 
-### 2. Inserisci la chiave nel codice
+### 2. Inserisci i dati nel codice
 
 Apri il file: script.js
 
@@ -56,9 +56,7 @@ const CITTA = '';
 
 ## 🛠️ Tecnologie utilizzate
 
-- **HTML5** – Struttura della pagina
-- **CSS3** – Stile grafico e layout
-- **JavaScript** – Logica dell’orologio, data, meteo e pulsanti
+- **HTML5 / CSS3 / JavaScript**
 - **Chrome Extensions API (Manifest V3)** – Per trasformare la pagina in una Nuova Scheda di Chrome
 - **OpenWeatherMap API** – Per recuperare i dati meteo in tempo reale
 
