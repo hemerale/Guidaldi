@@ -45,9 +45,13 @@ Questa estensione usa [OpenWeatherMap](https://openweathermap.org).
 
 Apri il file: script.js
 
-Trova questa riga e inserisci la tua chiave
+Inserisci la key della tua API come valore di questa costante
 ```javascript
 const CHIAVE_API = '';
+```
+Inserisci il nome della tua città come valore di questa costante
+```javascript
+const CITTA = '';
 ```
 
 ## 🛠️ Tecnologie utilizzate
