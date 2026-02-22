@@ -8,6 +8,10 @@ Si tratta di un’estensione per Google Chrome che sostituisce la pagina ‘Nuov
 - 🔎 Barra di ricerca Google  
 - 🔗 Pulsanti rapidi verso i siti preferiti  
 
+## 🌐 Prova online
+
+Puoi testare l’estensione direttamente dal mio sito: [hemerale.github.io/Guidaldi](https://hemerale.github.io/Guidaldi)
+
 ---
 
 ## ⚙️ Installazione su Google Chrome
